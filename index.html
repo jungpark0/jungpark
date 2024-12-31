@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jungpark</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <p>jungpark</p>
+    </div>
+<div></div>
+    <div class="menu1">
+        <p>2025</p>
+    </div>
+    <div class="list2025">
+        <p>new year's card (2025)</p>
+        <p>typography</p>
+        <p>graphics</p>
+        <br>
+    </div>
+
+    <div class="menu2">
+        <p>2024</p>
+    </div>
+    <div class="list2024">
+        <p><a href="https://jungpark0.github.io/The_last_bite/"target="_blank">the last bite</a></p>
+        <p><a href="https://jungpark0.neocities.org"target="_blank">music is.. .</a></p>
+        <br>
+    </div>
+    
+    <div class="menu3">
+        <p>2002</p>
+    </div>
+    <div class="list2002">
+        the birth of jungpark
+    </div>
+</div>
+
+<script>
+   
+    const menu1 = document.querySelector('.menu1');
+    const list2025 = document.querySelector('.list2025');
+
+    menu1.addEventListener('click', () => {
+        if (list2025.style.display === 'none' || list2025.style.display === '') {
+            list2025.style.display = 'block';
+        } else {
+            list2025.style.display = 'none';
+        }
+    });
+
+    const menu2 = document.querySelector('.menu2');
+    const list2024 = document.querySelector('.list2024');
+
+    menu2.addEventListener('click', () => {
+        if (list2024.style.display === 'none' || list2024.style.display === '') {
+            list2024.style.display = 'block';
+        } else {
+            list2024.style.display = 'none';
+        }
+    });
+
+    const menu3 = document.querySelector('.menu3');
+    const list2002 = document.querySelector('.list2002');
+
+    menu3.addEventListener('click', () => {
+        if (list2002.style.display === 'none' || list2002.style.display === '') {
+            list2002.style.display = 'block';
+        } else {
+            list2002.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
