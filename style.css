@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Overused Grotesk";
+  src: 
+    url("fonts/variable/OverusedGrotesk-VF.woff2") format("woff2 supports variations"),
+    url("fonts/variable/OverusedGrotesk-VF.woff2") format("woff2-variations");
+  font-weight: 300 900;
+}
+
+body {
+  background-color: white;
+  font-family: "Overused Grotesk", sans-serif;
+}
+
+:lang(ko) {
+  font-family: "Noto sans Kr", sans-serif;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  height: 30vh;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100px 300px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 550;
+  margin: 0;
+  padding-bottom: 10px;
+  min-height: 15vh;
+}
+
+/*n년도 메뉴*/
+.menu1, .menu2, .menu3, .menu4 {
+  font-size: 25px;
+  font-weight: 550;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  cursor: pointer;
+  grid-column: 1/2;
+  min-height: 5vh;
+}
+
+.menu1 :hover, .menu2 :hover, .menu3 :hover, .menu4 :hover {
+  text-decoration: underline;
+}
+
+.menu1 {
+  grid-row: 2/3;
+}
+.menu2 {
+  grid-row: 3/4;
+}
+.menu3 {
+  grid-row: 4/5;
+}
+.menu4 {
+  grid-row: 5/6;
+}
+
+/*세부작업 내용*/
+.list2025 {
+  grid-row: 2/3;
+}
+.list2024 {
+  grid-row: 3/4;
+}
+.list2023 {
+  grid-row: 4/5;
+}
+.list2002 {
+  grid-row: 5/6;
+}
+
+
+.list2024, .list2025, .list2023, .list2002{
+  margin: 0;
+  padding: 0;
+  display: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 2px;
+  grid-column: 2/3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*세부작업 이미지,텍스트 호버 관련*/
+#thelastbiteimage {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  width: 300px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+#musicistext {
+  display: none;
+  position: absolute;
+  top: 500px;
+  left: 320px;
+  width: 350px;
+  font-size: 16px;
+  text-align: left;
+  word-break: break-all;
+  line-height: 1.6;
+}
+#whatilikeimage {
+  display: none;
+  position: absolute;
+  top: 170px;
+  left: 380px;
+  width: 500px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+#hideoutimage {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  width: 600px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+#typo1image {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  width: 150px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+#birthtext {
+  display: none;
+  position: relative;
+  top: -28px;
+  left: 450px;
+}
+
+#musicis:hover + #musicistext,
+#birth:hover + #birthtext,
+#typo1:hover + #typo1image,
+#hideout:hover + #hideoutimage,
+#whatilike:hover + #whatilikeimage,
+#thelastbite:hover + #thelastbiteimage {
+  display: block;
+}
+
+/*사라지는 꿈 팝업*/
+.hidden {
+  display: none !important;
+}
+
+#hideoutpopup, #typo1popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#hideoutpopupimage, #typo1popupimage {
+  height: 50%;
+}
+
+#hideoutclose, #typo1close {
+  position: absolute;
+  justify-content: center;
+  top: 82%;
+}
+
+#hideoutprev {
+  margin-right: 50px;
+  transform: translateY(-50%);
+}
+
+#hideoutnext {
+  margin-left: 50px;
+  transform: translateY(-50%);
+}

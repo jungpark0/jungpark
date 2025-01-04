@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.48 127.69">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: square;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #040000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="475.48" height="127.69"/>
+  <g>
+    <g>
+      <line class="cls-1" x1="153.45" y1="41.77" x2="162.42" y2="41.77"/>
+      <g>
+        <polyline class="cls-2" points="61.18 80.36 105.9 36.25 128.26 58.31 100.31 58.31"/>
+        <line class="cls-2" x1="122.67" y1="58.31" x2="122.67" y2="63.82"/>
+        <polyline class="cls-2" points="117.08 63.82 128.26 63.82 117.08 69.33 128.26 69.33 117.08 74.85 128.26 74.85 117.08 80.36 128.26 80.36 117.08 88.64 128.26 88.64 117.08 96.91 126.16 96.91"/>
+        <ellipse class="cls-2" cx="128.26" cy="96.91" rx="2.1" ry="2.07"/>
+        <polyline class="cls-1" points="151.38 43.84 151.38 58.32 134.82 58.32 134.82 36.25 145.86 36.25"/>
+        <circle class="cls-1" cx="151.38" cy="41.77" r="2.07"/>
+        <polyline class="cls-1" points="151.38 58.32 151.38 63.84 145.86 63.84 145.99 91.44 168.07 91.44"/>
+        <line class="cls-1" x1="134.95" y1="41.77" x2="145.99" y2="41.77"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-1" x1="226.64" y1="80.4" x2="179.03" y2="80.4"/>
+      <line class="cls-1" x1="199.04" y1="74.88" x2="199.04" y2="80.4"/>
+      <ellipse class="cls-1" cx="199.04" cy="66.6" rx="22.08" ry="8.28"/>
+      <polyline class="cls-1" points="226.64 36.25 226.64 63.84 226.64 69.36 237.68 69.36 243.2 69.36 243.2 63.84 243.2 47.28"/>
+      <line class="cls-1" x1="226.64" y1="63.84" x2="235.61" y2="63.84"/>
+      <polyline class="cls-1" points="237.68 80.4 232.16 80.4 254.24 80.4"/>
+      <circle class="cls-1" cx="237.68" cy="63.84" r="2.07"/>
+      <circle class="cls-1" cx="176.96" cy="80.36" r="2.07"/>
+    </g>
+    <g>
+      <polyline class="cls-1" points="283.48 80.4 268.99 80.4 268.99 47.29 291.07 47.29"/>
+      <polyline class="cls-1" points="280.03 58.32 291.07 58.32 291.07 25.21"/>
+      <line class="cls-1" x1="291.07" y1="58.32" x2="291.07" y2="80.4"/>
+      <circle class="cls-1" cx="285.55" cy="80.4" r="2.07"/>
+    </g>
+    <g>
+      <g>
+        <polyline class="cls-1" points="324.06 80.4 309.57 80.4 309.57 47.29 331.65 47.29"/>
+        <line class="cls-1" x1="331.65" y1="58.32" x2="331.65" y2="25.21"/>
+        <line class="cls-1" x1="331.65" y1="58.32" x2="331.65" y2="80.4"/>
+        <circle class="cls-1" cx="326.12" cy="80.4" r="2.07"/>
+      </g>
+      <g>
+        <polyline class="cls-1" points="402.78 58.32 402.78 36.25 391.74 36.25 386.22 36.25"/>
+        <line class="cls-1" x1="399.33" y1="80.4" x2="408.3" y2="80.4"/>
+        <line class="cls-1" x1="397.26" y1="58.32" x2="397.26" y2="78.33"/>
+        <line class="cls-1" x1="402.78" y1="41.77" x2="391.74" y2="41.77"/>
+        <circle class="cls-1" cx="397.26" cy="80.4" r="2.07"/>
+      </g>
+      <g>
+        <polyline class="cls-1" points="315.23 102.48 359.38 58.32 381.46 80.4 353.86 80.4"/>
+        <line class="cls-1" x1="381.46" y1="80.4" x2="385.16" y2="80.4"/>
+        <circle class="cls-1" cx="387.23" cy="80.4" r="2.07"/>
+      </g>
+    </g>
+  </g>
+</svg>
