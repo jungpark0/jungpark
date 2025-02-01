@@ -101,6 +101,14 @@ a:hover {
 }
 
 /*세부작업 이미지,텍스트 호버 관련*/
+#newyearimage {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  width: 600px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
 #thelastbiteimage {
   display: none;
   position: absolute;
@@ -156,7 +164,8 @@ a:hover {
 #typo1:hover + #typo1image,
 #hideout:hover + #hideoutimage,
 #whatilike:hover + #whatilikeimage,
-#thelastbite:hover + #thelastbiteimage {
+#thelastbite:hover + #thelastbiteimage, 
+#newyearcard:hover + #newyearimage  {
   display: block;
 }
 
