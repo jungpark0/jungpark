@@ -1,14 +1,9 @@
-@font-face {
-  font-family: "Overused Grotesk";
-  src: 
-    url("fonts/variable/OverusedGrotesk-VF.woff2") format("woff2 supports variations"),
-    url("fonts/variable/OverusedGrotesk-VF.woff2") format("woff2-variations");
-  font-weight: 300 900;
-}
+
 
 body {
   background-color: white;
-  font-family: "Overused Grotesk", sans-serif;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
 }
 
 :lang(ko) {
@@ -30,16 +25,16 @@ p {
 
 .title {
   font-size: 25px;
-  font-weight: 550;
+  font-weight: 100;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   min-height: 15vh;
 }
 
 /*n년도 메뉴*/
 .menu1, .menu2, .menu3, .menu4 {
   font-size: 25px;
-  font-weight: 550;
+  font-weight: 100;
   margin: 0;
   padding: 0;
   width: 60px;
@@ -101,11 +96,20 @@ a:hover {
 }
 
 /*세부작업 이미지,텍스트 호버 관련*/
+#sauspawseoulimage {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 360px;
+  width: 300px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
 #newyearimage {
   display: none;
   position: absolute;
   top: 200px;
-  left: 700px;
+  left: 400px;
   width: 600px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
@@ -118,12 +122,15 @@ a:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 #musicistext {
+  font-family: "Noto sans Kr", sans-serif !important;
+  word-spacing: 0;
+  letter-spacing: -0.3px;
   display: none;
   position: absolute;
   top: 500px;
   left: 320px;
-  width: 350px;
-  font-size: 16px;
+  width: 400px;
+  font-size: 14px;
   text-align: left;
   word-break: break-all;
   line-height: 1.6;
@@ -165,7 +172,8 @@ a:hover {
 #hideout:hover + #hideoutimage,
 #whatilike:hover + #whatilikeimage,
 #thelastbite:hover + #thelastbiteimage, 
-#newyearcard:hover + #newyearimage  {
+#newyearcard:hover + #newyearimage,
+#sauspawseoul:hover + #sauspawseoulimage  {
   display: block;
 }
 
