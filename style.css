@@ -25,7 +25,7 @@ p {
 
 .title {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
   margin: 0;
   padding-bottom: 0;
   min-height: 15vh;
@@ -34,7 +34,7 @@ p {
 /*n년도 메뉴*/
 .menu1, .menu2, .menu3, .menu4 {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   width: 60px;
@@ -213,4 +213,10 @@ a:hover {
 #hideoutnext {
   margin-left: 50px;
   transform: translateY(-50%);
+}
+
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
 }
