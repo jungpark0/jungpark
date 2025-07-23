@@ -1,21 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
+html,
 body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 2px;
   background-color: white;
-  font-family: "Futura-PT", sans-serif;
-  font-weight: 300;
+  font-family: "helvetica", sans-serif;
+  font-weight: 500;
 }
 
-:lang(ko) {
-  font-family: "Noto sans Kr", sans-serif;
-}
 
 .container {
   display: grid;
   position: relative;
-  height: 30vh;
-  grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 100px 300px;
+
+  grid-template-columns: 100px auto;
 }
 
 p {
@@ -24,23 +29,19 @@ p {
 }
 
 .title {
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-  padding-bottom: 0;
-  min-height: 15vh;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 /*n년도 메뉴*/
-.menu1, .menu2, .menu3, .menu4 {
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
+.menu {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
   width: 60px;
   cursor: pointer;
   grid-column: 1/2;
-  min-height: 5vh;
 }
 
 .menu1 :hover, .menu2 :hover, .menu3 :hover, .menu4 :hover {
@@ -79,10 +80,9 @@ p {
   margin: 0;
   padding: 0;
   display: none;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.4;
-  margin-top: -3px;
   grid-column: 2/3;
 }
 
@@ -130,10 +130,11 @@ a:hover {
   top: 500px;
   left: 320px;
   width: 400px;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 400;
   text-align: left;
   word-break: break-all;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 #whatilikeimage {
   display: none;
@@ -219,4 +220,20 @@ a:hover {
   body {
     overflow-x: hidden;
   }
+}
+
+
+
+
+
+
+
+
+
+footer {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 14px;
+
 }
