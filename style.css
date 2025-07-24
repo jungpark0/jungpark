@@ -32,6 +32,8 @@ p {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
+  display: inline-block;
+  width: max-content;
 }
 
 /*n년도 메뉴*/
@@ -39,9 +41,11 @@ p {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.4;
-  width: 60px;
   cursor: pointer;
   grid-column: 1/2;
+  display: inline-block;
+  width: max-content;
+  height: max-content;
 }
 
 .menu1 :hover, .menu2 :hover, .menu3 :hover, .menu4 :hover {
@@ -116,8 +120,8 @@ a:hover {
 #thelastbiteimage {
   display: none;
   position: absolute;
-  top: 300px;
-  left: 600px;
+  top: 30px;
+  left: 400px;
   width: 300px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
@@ -130,7 +134,7 @@ a:hover {
   top: 500px;
   left: 320px;
   width: 400px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-align: left;
   word-break: break-all;
@@ -148,16 +152,16 @@ a:hover {
   display: none;
   position: absolute;
   top: 100px;
-  left: 450px;
+  left: 370px;
   width: 600px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 #typo1image {
   display: none;
   position: absolute;
-  top: 300px;
-  left: 500px;
-  width: 150px;
+  top: 210px;
+  left: 350px;
+  width: 300px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 #birthtext {
@@ -197,22 +201,29 @@ a:hover {
 }
 
 #hideoutpopupimage, #typo1popupimage {
-  height: 50%;
+  height: 70%;
 }
 
-#hideoutclose, #typo1close {
+
+button {
+  all: unset;
+  cursor: pointer;
   position: absolute;
-  justify-content: center;
-  top: 82%;
+  color: white;
+  font-size: 25px;
+}
+#hideoutclose, #typo1close {
+  top: 10px;
+  left: 10px;
 }
 
 #hideoutprev {
-  margin-right: 50px;
+  left: 10px;
   transform: translateY(-50%);
 }
 
 #hideoutnext {
-  margin-left: 50px;
+  right: 10px;
   transform: translateY(-50%);
 }
 
