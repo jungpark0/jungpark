@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: black;
+  color: white;
+}
+
+::-moz-selection {
+  background: black;
+  color: white;
+}
+
 html,
 body {
   width: 100%;
@@ -100,6 +110,36 @@ a:hover {
 }
 
 /*세부작업 이미지,텍스트 호버 관련*/
+#introducetext {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 235px;
+}
+
+#namecardtext {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+
+#milkteaimage {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+  width: 370px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#kikyoahkitext {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 177px;
+}
+
 #sauspawseoulimage {
   display: none;
   position: absolute;
@@ -131,7 +171,7 @@ a:hover {
   letter-spacing: -0.3px;
   display: none;
   position: absolute;
-  top: 500px;
+  top: 400px;
   left: 320px;
   width: 400px;
   font-size: 14px;
@@ -167,7 +207,7 @@ a:hover {
 #birthtext {
   display: none;
   position: relative;
-  top: -28px;
+  top: -25px;
   left: 450px;
 }
 
@@ -178,7 +218,11 @@ a:hover {
 #whatilike:hover + #whatilikeimage,
 #thelastbite:hover + #thelastbiteimage, 
 #newyearcard:hover + #newyearimage,
-#sauspawseoul:hover + #sauspawseoulimage  {
+#sauspawseoul:hover + #sauspawseoulimage,
+#kikyoahki:hover + #kikyoahkitext,
+#milktea:hover + #milkteaimage,
+#namecard:hover + #namecardtext,
+#introduce:hover + #introducetext {
   display: block;
 }
 
@@ -227,14 +271,21 @@ button {
   transform: translateY(-50%);
 }
 
-@media (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
+@media (max-width: 767px) {
+  #musicis:hover + #musicistext,
+  #birth:hover + #birthtext,
+  #typo1:hover + #typo1image,
+  #hideout:hover + #hideoutimage,
+  #whatilike:hover + #whatilikeimage,
+  #thelastbite:hover + #thelastbiteimage, 
+  #newyearcard:hover + #newyearimage,
+  #sauspawseoul:hover + #sauspawseoulimage,
+  #milktea:hover + #milkteaimage,
+  #namecard:hover + #namecardtext,
+  #introduce:hover + #introducetext  {
+    display: none;
   }
 }
-
-
-
 
 
 
